@@ -34,3 +34,8 @@ if(object1 == object2) {
     System.out.println("object1 didn't equals object2");
 }
 ```
+## Step five
+输出结果:
+```Java
+object1 equals object2
+```
