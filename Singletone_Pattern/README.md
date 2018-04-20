@@ -3,7 +3,7 @@
   Step one:既然我们不能在外部通过new的方式获得SingleObject对象，那么我们需要在这个类中提供一个私有的构造方法:  
   '''Java
   
-  //private constructor
+  //private constructor  
   private SingleObject() {
   }
   
@@ -11,14 +11,14 @@
   Step two:那么我们就可以通过私有的构造方法在SingleObject类中定义一个private的SingleObject对象:  
   '''Java
   
-  //private SingleObject field
+  //private SingleObject field  
   private static SingleObject instance = new SingleObject();
   
   '''  
   Step two:由于我们不对外提供构造方法，同时我们在这个类的外部需要使用这个类时能获得该类的对象，那么我们就需要提供一个getInstance的方法供外部获取SingleObject类的对象:  
   '''Java
   
-  //get the instance of SingleObject
+  //get the instance of SingleObject  
   public static SingleObject getInstance() {
 	return instance;
   }
