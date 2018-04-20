@@ -145,6 +145,7 @@ public class FilterPatternDemo {
 }
 ```
 ## Step nine
+输出结果
 ```Java
 [Robert-Male-Single, Jhon-Male-Married, Mike-Male-Single, Bobby-Male-Single]
 [Laura-Female-Married, Diana-Female-Single]
