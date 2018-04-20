@@ -7,4 +7,4 @@
 * Filter Pattern
 * Strategy Pattern
 * Builder Pattern
-
+* Adapter Pattern
