@@ -14,7 +14,7 @@
   //private SingleObject field  
   private static SingleObject instance = new SingleObject();
   ```  
-## Step two
+## Step three
 由于我们不对外提供构造方法，同时我们在这个类的外部需要使用这个类时能获得该类的对象，那么我们就需要提供一个getInstance的方法供外部获取SingleObject类的对象:  
   ```Java
   //get the instance of SingleObject  
@@ -22,3 +22,15 @@
 	return instance;
   }
   ``` 
+## Step four
+我们另外定义一个类SinglePatterDemo来测试我们的SingleObject在SingleObject类外部是不是不管我们定义了多少了SingleObject 变量，Object1、Object2.然后利用==判断二者的引用地址是否想同，如果相同，那么证明了我们的代码是对的  
+```Java
+SingleObject object1 = SingleObject.getInstance();
+SingleObject object2 = SingleObject.getInstance();
+		
+if(object1 == object2) {
+    System.out.println("object1 equals object2");
+}else {
+    System.out.println("object1 didn't equals object2");
+}
+```
