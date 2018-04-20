@@ -144,3 +144,11 @@ public class FilterPatternDemo {
     }
 }
 ```
+## Step nine
+```Java
+[Robert-Male-Single, Jhon-Male-Married, Mike-Male-Single, Bobby-Male-Single]
+[Laura-Female-Married, Diana-Female-Single]
+[Robert-Male-Single, Diana-Female-Single, Mike-Male-Single, Bobby-Male-Single]
+[Robert-Male-Single, Mike-Male-Single, Bobby-Male-Single]
+[Robert-Male-Single, Diana-Female-Single, Mike-Male-Single, Bobby-Male-Single, Laura-Female-Married]
+```
