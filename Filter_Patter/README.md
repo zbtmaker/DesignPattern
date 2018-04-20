@@ -5,15 +5,22 @@
 首先我们创建一个Person类，这个类中包含三个域，名称、性别、婚姻状态。一个构造方法，以及域的get方法和set方法  
 ```Java
 public class Person {
-	private String name;
-	private String gender;
-	private String maritalStatus;
-	
-	public Person(String name,String gender,String maritalStatus) {
-		this.name = name;
-		this.gender = gender;
-		this.maritalStatus = maritalStatus;
+    private String name;
+    private String gender;
+    private String maritalStatus;
+    
+    public Person(String name,String gender,String maritalStatus) {
+    	this.name = name;
+	this.gender = gender;
+	this.maritalStatus = maritalStatus;
 	}
-  //getters and setters ...
+    //getters and setters ...
+}
+```
+## Step two
+采用Criteri接口的方式定义一个过滤方法，过滤一个List<Person>
+```Java
+public interface Criteria {
+    List<Person> meetCriteria(List<Person> persons);
 }
 ```
