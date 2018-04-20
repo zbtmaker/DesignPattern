@@ -1,3 +1,10 @@
 # DesignPattern
 ## 目录
-* Iterator Pattern (# Iterator Pattern)
+* Singletone Pattern
+* Iterator Pattern 
+* Factory Pattern
+* Facade Pattern
+* Filter Pattern
+* Strategy Pattern
+* Builder Pattern
+
