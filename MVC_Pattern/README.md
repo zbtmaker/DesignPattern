@@ -4,7 +4,8 @@ MVC 模式主要分为三个部分：
 * view:代表一个模型所包含的数据的visualization(这一模块主要是将对象的数据展示给系统的外部世界)
 * controller:用于控制model和view。controller用于控制model中object的数据流，当数据改变的时候升级view  
 
-这个模式在做项目的时候非常有用，在学习Servlet&JSP时用到这种模式，而且做一个项目大多数是将对象(model)改变的信息存储到数据库中，或者是从数据库中展示一些对象的信息，这里网页模块则是充当着iew模块，而servlet则是充当一个controller的角色
+这个模式在做项目的时候非常有用，在学习Servlet&JSP时用到这种模式，而且做一个项目大多数是将对象(model)改变的信息存储到数据库中，或者是从数据库中展示一些对象的信息，这里网页模块则是充当着iew模块，而servlet则是充当一个controller的角色  
+
 model模块下创建一个Student类作为一个，view模块下创建一个StudentView类将Student 的信息到控制台上。同时我们创建一个StudenController用于控制Student对象的存储和升级StudentView类的对象
 ## Step one
 创建一个Student类
