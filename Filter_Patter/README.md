@@ -153,3 +153,5 @@ public class FilterPatternDemo {
 [Robert-Male-Single, Mike-Male-Single, Bobby-Male-Single]
 [Robert-Male-Single, Diana-Female-Single, Mike-Male-Single, Bobby-Male-Single, Laura-Female-Married]
 ```
+###Reference
+|1|' https://www.tutorialspoint.com/design_pattern/filter_pattern.htm
