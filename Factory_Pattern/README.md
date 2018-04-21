@@ -1,4 +1,4 @@
-#Factory Pattern --工厂模式
+# Factory Pattern --工厂模式
 工厂模式主要是一种创建模式，在这种模式中，我们对第三方隐藏我们的创建对象的逻辑，同意使用接口的方式创建对象。  
 这里我们创建一个Shape接口以及一些是想了这类接口的类，然后创建一个ShapeFactory来创建实现了Shape接口的对象
 # Step one
