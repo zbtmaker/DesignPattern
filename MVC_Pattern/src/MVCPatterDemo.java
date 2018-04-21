@@ -1,3 +1,5 @@
+package MVC_Pattern;
+
 public class MVCPatterDemo {
 	public static void main(String[] args) {
 		//fetch studen record based on his roll no from database
