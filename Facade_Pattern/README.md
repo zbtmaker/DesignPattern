@@ -8,7 +8,7 @@ public interface Shape {
     void draw();
 }
 ```
-# Step two
+## Step two
 创建一个Rectangle类实现Shape接口并实现其中的方法
 ```Java
 public class Rectangle implements Shape{
@@ -18,7 +18,7 @@ public class Rectangle implements Shape{
     }
 }
 ```
-# Step three
+## Step three
 创建一个Circle类实现Shape接口并实现其中的方法
 ```Java
 public class Circle implements Shape{
@@ -28,7 +28,7 @@ public class Circle implements Shape{
     }
 }
 ```
-# Step four
+## Step four
 创建一个Square类实现Shape接口并实现其中的方法
 ```Java
 public class Square implements Shape{
@@ -38,7 +38,7 @@ public class Square implements Shape{
     }
 }
 ```
-# Step five
+## Step five
 创建一个ShapeMaker类用于调用实现了Shape类对象的共有方法
 ```Java
 public class ShapeMaker {
@@ -70,7 +70,7 @@ public class ShapeMaker {
     }
 }
 ```
-# Step six
+## Step six
 验证代码
 ```Java
 public class FacadePatternDemo {
@@ -82,7 +82,7 @@ public class FacadePatternDemo {
     }
 }
 ```
-# Step seven
+## Step seven
 输出结果
 ```Java
 Circle draw
