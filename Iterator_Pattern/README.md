@@ -17,7 +17,7 @@ public interface Container{
 }
 ```
 ## Step three
-我们创建一个nameRepository类实现Container接口，我们必须要实现getIterator方法。如果我们要返回一个接口的对象，然而接口是不可实例化的。因此我们只有在那meRepository当中创建一个私有的类来实例化我们的Iterator,然后利用面向对象中多态的特性向上转型成Iterator,并返回。
+我们创建一个nameRepository类实现Container接口，我们必须要实现getIterator方法。如果我们要返回一个接口的对象，然而接口是不可实例化的。因此我们只有在那nameRepository当中创建一个私有的类来实例化我们的Iterator,然后利用面向对象中多态的特性向上转型成Iterator,并返回。
 ```Java
 public class nameRepository implements Container{
     public String names[] = {"Robert","John","Julie","Lora"};
