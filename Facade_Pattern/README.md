@@ -5,7 +5,7 @@
 首先我们定义一个Shape接口并定义一个draw方法
 ```Java
 public interface Shape {
-	  void draw();
+    void draw();
 }
 ```
 # Step two
