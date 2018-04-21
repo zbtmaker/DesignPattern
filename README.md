@@ -8,3 +8,4 @@
 * Strategy Pattern
 * Builder Pattern
 * Adapter Pattern
+* MVC Pattern
