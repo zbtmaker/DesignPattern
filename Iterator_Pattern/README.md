@@ -51,14 +51,14 @@ public class nameRepository implements Container{
 验证代码
 ```Java
 public class IteratorPatternDemo {
-	  public static void main(String[] args) {
-		    NameRepository namesRepository = new NameRepository();
+    public static void main(String[] args) {
+	NameRepository namesRepository = new NameRepository();
 		
-		    for(Iterator iter = namesRepository.getIterator();iter.hasNext();) {
-			      String name = (String)iter.next();
-			      System.out.println("Name: "+name);
-		    }
-	  }
+	for(Iterator iter = namesRepository.getIterator();iter.hasNext();) {
+	    String name = (String)iter.next();
+	    System.out.println("Name: "+name);
+	}
+    }
 }
 ```
 ## Step five
